@@ -1,5 +1,6 @@
 # HFT106
-HFT106 were pinpads produced by Hypercom (acquired by Verifone in 2011) based on Dallas DS5002FP protected microcontroller. As the software was kept in RAM, nowadays all prodused pinpads are out of order because the internal battery is completely discharged and the data are erased.
+HFT106 (Hypercom financial terminals) were pinpads produced by Hypercom (acquired by Verifone in 2011) based on Dallas DS5002FP protected microcontroller. These pinpads were used with Hypercom T7* terminals.
+As the software was kept in RAM, nowadays all produced pinpads are out of order as the internal battery is completely discharged and the MCU's firmware erased.
 DS5002FP is a microcontroller with Intel 8051 architecture that is programmed with a "Microcontroller Toolkit" via UART.
 As I don't know at all the functions of the pinpad's firmware, I've written a simple demo program that scans the keypad and shows the scancode on the display.
 You can see the internals of this pinpad here:
